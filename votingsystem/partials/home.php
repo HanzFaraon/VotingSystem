@@ -51,17 +51,11 @@
 </nav>
 
 	<div class="container">
-	<h1 class="h1">Select Position</h1>
-		<div class="btn-group">
-		<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-		President & Vice President</button>
-			<ul class="dropdown-menu">
-				<li><a class="dropdown-item" href="votingpage2.html">President & Vice President</a></li>
-				<li><a class="dropdown-item" href="votingpage2_1.html">Position 2</a></li>
-				<li><a class="dropdown-item" href="#">POSITION 1</a></li>
-				</ul>
-		</div>
-		
+	
+		<br/>
+		<br/>
+		<br/>
+	
 		<div class="container">	
 			<div class="border border border-dark p-2 mb-2">
 				<div class="text text-primary border-bottom border-primary">President</div>
@@ -80,12 +74,25 @@
 
 			</br>
 		</div>
-		<form method="POST" id="ballotForm" action="submit_ballot.php">
-		<div class="text-center">
-		<button type="submit" class="btn btn-primary btn-flat" name="vote"><i class="fa fa-check-square-o"></i> Submit</button>
+		<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="home.php">1</a></li>
+    <li class="page-item"><a class="page-link" href="home2.php">2</a></li>
+    <li class="page-item"><a class="page-link" href="home3.php">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="home3.php" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
 		</div>
-		</form>
-	</div>
 	
 	</br></br></br></br></br>
 	<footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
