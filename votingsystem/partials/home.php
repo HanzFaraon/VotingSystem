@@ -61,7 +61,7 @@
 				<div class="text text-primary border-bottom border-primary">President</div>
 				<div class="form-check border2">
 					<input class="form-check-input" type="radio" name="radiobutton1" id="radio1">
-					<label class="form-check-label" for="radio1">Option 1</label>
+					<label class="form-check-label" for="radio1"><img src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" class="img-thumbnail" alt="...">Option 1</label>
 				</div>
 				<div class="form-check">
 			<input class="form-check-input" type="radio" name="radiobutton1" id="radio2">
