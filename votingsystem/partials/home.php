@@ -60,14 +60,18 @@
 		<div class="container">	
 			<div class="border border border-dark p-2 mb-2">
 				<div class="text text-primary border-bottom border-primary">President</div>
-				<div class="form-check border2">
-					<input class="form-check-input" type="radio" name="radiobutton1" id="radio1">
-					<label class="form-check-label" for="radio1"><img src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" class="img-thumbnail" alt="...">Option 1</label>
-				</div>
-				<div class="form-check">
-			<input class="form-check-input" type="radio" name="radiobutton1" id="radio2">
-			<label class="form-check-label" for="radio2">Option 2</label>
-				</div>
+        <div>
+        <input class="radio-input" type="radio" name="test" value="yes" />
+        <label class="radio-label"><img src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" class="img-thumbnail" alt="...">option name</label>
+        </div>
+        <div>
+        <input class="radio-input" type="radio" name="test" value="yes" />
+        <label class="radio-label"><img src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" class="img-thumbnail" alt="...">option name</label>
+        </div>
+        <div>
+        <input class="radio-input" type="radio" name="test" value="yes" />
+        <label class="radio-label"><img src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" class="img-thumbnail" alt="...">option name</label>
+        </div>
 			</div>
 		</div>
 
