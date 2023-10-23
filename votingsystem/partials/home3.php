@@ -18,6 +18,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
  
 	<link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="image.css">
 	
  </head>
   <body>
@@ -59,14 +60,18 @@
 		<div class="container">	
 			<div class="border border border-dark p-2 mb-2">
 				<div class="text text-primary border-bottom border-primary">position</div>
-				<div class="form-check border2">
-					<input class="form-check-input" type="radio" name="radiobutton1" id="radio1">
-					<label class="form-check-label" for="radio1">Option 1</label>
-				</div>
-				<div class="form-check">
-			<input class="form-check-input" type="radio" name="radiobutton1" id="radio2">
-			<label class="form-check-label" for="radio2">Option 2</label>
-				</div>
+        <div class="form-check border2">
+        <input class="radio-input" type="radio" name="test" value="yes" />
+        <label class="radio-label"><img src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" class="img-thumbnail" alt="...">option name</label>
+        </div>
+        <div class="form-check border2">
+        <input class="radio-input" type="radio" name="test" value="yes" />
+        <label class="radio-label"><img src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" class="img-thumbnail" alt="...">option name</label>
+        </div>
+        <div class="form-check border2">
+        <input class="radio-input" type="radio" name="test" value="yes" />
+        <label class="radio-label"><img src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" class="img-thumbnail" alt="...">option name</label>
+        </div>
 			</div>
 		</div>
 
