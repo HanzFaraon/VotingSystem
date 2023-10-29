@@ -19,10 +19,13 @@
         
          
     
-        $sql = "INSERT INTO candidates  VALUES ('','$firstname',
+        $sql = "INSERT INTO candidates VALUES ('','$firstname',
             '$lastname', '$position')";
          
         if(mysqli_query($connect, $sql)){
+            $candidatedata = mysqli_fetch_array($check);
+
+		    $_SESSION['userdata'] = $userdata;
             echo' "<h3>The data has been stored in a database successfully."
                 . " Please browse your localhost php my admin"
                 . " to view the updated data.</h3>";

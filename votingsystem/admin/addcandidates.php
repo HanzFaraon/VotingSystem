@@ -20,7 +20,7 @@
 </head>
 <body>
 	
-	<nav class="navbar" style="background-color: #e3f2fd; fixed-top">
+	<nav class="navbar" style="background-color: #e3f2fd;">
 	 <div class="container-fluid">
 	<ul class="nav nav-pills nav-fill">
 		<li class="nav-item">
