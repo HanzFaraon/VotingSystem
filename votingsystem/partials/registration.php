@@ -12,46 +12,46 @@
   <body>
 		<div class="login">	
 			
-			<h1 class="text-center">HFDB EVS</h1>
-			<br>
-			
+<center><img  src="https://lh3.googleusercontent.com/pw/ADCreHfnNz1NKzZNOqRNx08ORN5BIFHQId9DWLS1CLfYHx7sneBH6lXsW6d3GlhMeDY6KQNyHV2Tp2KoeE1DqO0BIKThPKNmKTZgoAi1rTHIMXNfKe6Nx1s=w2400"></center>
+			<br><br>
+		
 			<form action="../api/register.php" method="POST">
 
-				<div class="form-group has-feedback">
-					<label class="form-label">First name</label>
-					<input class="form-control" type="text" name="firstname" required>
+				<div class="form-floating mb-3">
+					<input class="form-control" type="text" name="firstname" placeholder="firstname" required>
+					<label for="floatingInput">First Name</label>
 				</div>
 
-				<div class="form-group has-feedback">
-					<label class="form-label">Last name</label>
-					<input class="form-control" type="text" name="lastname" required>
+				<div class="form-floating mb-3">
+					<input class="form-control" type="text" name="lastname" placeholder="lastname" required>
+					<label for="floatingInput">Last Name</label>
 				</div>
 
-				<div class="form-group has-feedback">
-					<label class="form-label">Voters ID</label>
-					<input class="form-control" type="text" name="votersid" required>
+				<div class="form-floating mb-3">
+					<input class="form-control" type="text" name="votersid" placeholder="votersid" required>
+					<label for="floatingInput">Voter's ID</label>
 				</div>
 
-				<div class="form-group has-feedback">
-					<label class="form-label" for="password">Password</label>
-					<input class="form-control" type="password" name="password" required>
+				<div class="form-floating mb-3">
+					<input class="form-control" type="text" name="password" placeholder="password" required>
+					<label for="floatingInput">Password</label>
 				</div>
 
-				<div class="form-group has-feedback">
-					<label class="form-label" for="password">Confirm Password</label>
-					<input class="form-control" type="password" name="cpassword" required>
+				<div class="form-floating mb-3">
+					<input class="form-control" type="text" name="cpassword" placeholder="cpassword" required>
+					<label for="floatingInput">Confirm Password</label>
 				</div>
 
 				<div class="row">
-					<div class="col-xs-12">
-				<input type="submit" class="btn btn-primary w-100" value="SIGN IN">
+					<div class="center">
+				<input type="submit" class="bn632-hover bn26" value="SIGN IN">
 				</div>
 			</form>
 
 		</div>
 		<div>
 			<form></br>
-				<center><p>Already have an account? <a href="index.php">Login</a></p></center>
+				<center><p>Already have an account? <a class="bn48" href="index.php">Login</a></p></center>
 			</form>
 		</div>
 	</body>
