@@ -13,12 +13,12 @@
   <body>
 	
 
-		<div class="login" >	
+		<div class="login">	
 			
-			<h1 class="text-center">HFDB EVS</h1>
+			<h1 class="text-center"><img src="https://lh3.googleusercontent.com/pw/ADCreHcQBDcttH5D8X7R81eonRmR0BRPT3MxIw6KN73vS-SHlvuAft5vdpg09S63BORO_7Ltz__5dDPwV43ckEM4rREXkWkpyuAzj7_eIDZcumE0NGwa2vA=w2400"></h1>
 			<div class="dropdown-center centerdrop">
- 	 			<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">STUDENT</button>
-  					<ul class="dropdown-menu">
+ 	 			<button class="bn632-hover bn26" class="btn btn-primary dropdown-toggle"  type="button" data-bs-toggle="dropdown">STUDENT ▼</button>
+  					<ul  class="dropdown-menu">
    					 <li><a class="dropdown-item" href="index.php">STUDENT</a></li>
     				<li><a class="dropdown-item" href="adminlogin.php">ADMIN</a></li>
     
@@ -26,25 +26,26 @@
 			</div>
 </br>
 			<form action="../api/login.php" method="POST">
-				<div class="form-group has-feedback">
-					<label class="form-label" for="email">Username</label>
-					<input class="form-control" type="text" name="votersid" required>
+				<div class="form-floating mb-3">
+					<input class="form-control" type="text" name="votersid" placeholder="Username" required>
+					<label for="floatingInput">Username</label>
 				</div>
-				
-				<div class="form-group has-feedback">
-					<label class="form-label" for="password">Password</label>
-					<input class="form-control" type="password" name="password" required>
+		
+				<div class="form-floating mb-3">
+					<input class="form-control" id="floatingInput" type="password" name="password" placeholder="Password" required>
+					<label for="floatingInput">Password</label>
 				</div>
 				<div class="row">
-					<div class="col-xs-12">
-				<input type="submit" class="btn btn-primary w-100" value="SIGN IN">
+					<div class="center">
+				<input type="submit" class="bn632-hover bn26" value="SIGN IN">
+				
 				</div>
 			</form>
 
 		</div>
 		<div>
 			<form></br>
-				<center><p>New here? <a href="registration.php">Register now</a></p>
+				<center><p>New here? <a class="bn48" href="registration.php">Register now</a></p>
 				<p>Username is your Student ID No.</p></center>
 			</form>
 		</div>
